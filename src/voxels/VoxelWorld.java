@@ -37,7 +37,6 @@ public class VoxelWorld extends SimpleApplication
         rootNode.attachChild(g);
     }
     private void setUpTheCam() {
-        flyCam.setEnabled(true);
         flyCam.setMoveSpeed(30);
     }
 
