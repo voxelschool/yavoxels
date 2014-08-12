@@ -18,16 +18,13 @@ public class VoxelWorld extends SimpleApplication
     MaterialLibrarian materialLibrarian;
 
     @Override
-    public void simpleUpdate(float secondsPerFrame) {
-
-    }
+    public void simpleUpdate(float secondsPerFrame) {}
 
     @Override
     public void simpleInitApp() {
         materialLibrarian = new MaterialLibrarian(assetManager);
         setUpTheCam();
         makeADemoMeshAndAdditToTheRootNode();
-
     }
 
     private void makeADemoMeshAndAdditToTheRootNode() {
@@ -43,8 +40,7 @@ public class VoxelWorld extends SimpleApplication
     /*******************************
      * Program starts here... ******
      *******************************/
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         VoxelWorld app = new VoxelWorld();
         app.start(); // start the game
     }
