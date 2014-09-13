@@ -13,7 +13,7 @@ import com.jme3.scene.shape.Cylinder;
 
 /**
  * Created by didyouloseyourdog on 8/10/14.
- * this is a file change! see?
+ * this is a file change! see? edit yet again...
  */
 public class VoxelWorld extends SimpleApplication
 {
